@@ -5,7 +5,7 @@ function PictureCard(props) {
   return (
     <div>
       <h2 className="nameTitle">{props.name}</h2>
-      <img className="cardImg" sr={props.img} alt="" />
+      <img className="cardImg" src={props.img} alt="" />
     </div>
   );
 }
