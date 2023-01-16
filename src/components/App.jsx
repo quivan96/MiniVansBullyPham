@@ -1,13 +1,13 @@
 import React from "react";
 import PictureCard from "./PictureCard";
 import Navbar from "./Navbar";
-import black from "../images/logos/transparent_no_shade.png";
+import ComingSoon from "./ComingSoon";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <PictureCard name="Pepper" img={black} />
+      <ComingSoon />
     </div>
   );
 }
