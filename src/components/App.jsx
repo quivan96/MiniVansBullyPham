@@ -1,12 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
-import ComingSoon from "./ComingSoon";
+import Home from "./Home";
+import Males from "./Males"
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      <ComingSoon />
+      <Home />
+      <Males />
     </div>
   );
 }
