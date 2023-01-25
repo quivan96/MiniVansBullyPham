@@ -23,13 +23,17 @@
 }
 
 /* Picture Card */
+.pictureCard {
+  display: flex;
+}
+
 .nameTitle {
   color: #222831;
 }
 
 .cardImg {
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 275px;
 }
 
 /* Icon */
