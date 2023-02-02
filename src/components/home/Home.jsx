@@ -9,20 +9,20 @@ const Home = () => {
         <img className={style.logo} src={logo} alt="" />
       </div>
       <div>
-        <h1>Welcome to MiniVans Bully Pham</h1>
-        <h3>Your go-to source for American Bully puppies in South Florida.</h3>
+        <h2>Welcome to MiniVans Bully Pham</h2>
         <p>
-          We are a family-owned business based in South Florida, dedicated to
-          breeding and raising top-quality American Bullies that embody the best
-          traits of the breed: strength, loyalty, and intelligence. Our dogs are
-          raised in a loving and nurturing environment, ensuring that they grow
-          up to be well-adjusted and healthy.
+          Your go-to source for American Bully puppies in South Florida.
+          <b>  We are a passionate family of dog lovers who take pride in producing
+          only a select few litters of the finest American Bullies in South
+          Florida</b>. Our limited breedings ensure that each pup receives the
+          personal attention and care they deserve, resulting in healthy, happy,
+          and well-socialized dogs.
         </p>
         <p>
           Our breeding program is carefully planned and executed to produce
-          American Bullies that meet or exceed the breed standard. We take great
+          American Bullies that meet or exceed the breed standard. <b>  We take great
           care in selecting the right breeding pairs to produce puppies with
-          stable temperaments, sound minds, and excellent conformation.
+          stable temperaments, sound minds, and excellent conformation</b>.
         </p>
         <p>
           At MiniVans Bully Pham, we understand that adding a new pet to your
