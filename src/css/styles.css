@@ -4,24 +4,6 @@
   margin: 0;
 }
 
-/* Coming Soon*/
-.comingSoon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.comingSoon h1 {
-  font-size: 3rem;
-  color: #222831;
-}
-
-.comingSoon img {
-  width: 30rem;
-  height: 30rem;
-}
-
 /* Picture Card */
 .pictureCard {
   display: flex;
@@ -44,7 +26,7 @@
 
 /* Navbar */
 
-.navbar {
+/* .navbar {
   background-color: #393e46;
   color: #eeeeee;
   margin: 0;
@@ -92,7 +74,7 @@
 
 .navbarIcons {
   gap: 0.5rem;
-}
+} */
 
 /* 
 Colors 

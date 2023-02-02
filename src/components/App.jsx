@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Home from "./Home";
-import Males from "./Males"
-import Females from "./Females";
-import Breedings from "./Breedings"
-import Puppies from "./Puppies"
-import ContactUs from "./ContactUs"
-import Footer from "./Footer"
+import Navbar from "./navbar/Navbar";
+import Home from "./home/Home";
+import Males from "./males/Males";
+import Females from "./females/Females";
+import Breedings from "./breedings/Breedings";
+import Puppies from "./puppies/Puppies";
+import ContactUs from "./contactUs/ContactUs";
+import Footer from "./footer/Footer";
 
 function App() {
   return (

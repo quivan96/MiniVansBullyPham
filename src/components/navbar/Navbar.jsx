@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import facebook from "../images/icons/fb_icon.svg";
-import instagram from "../images/icons/ig_icon.svg";
-import logo from "../images/icons/logo_icon.svg";
+import facebook from "../../images/icons/fb_icon.svg";
+import instagram from "../../images/icons/ig_icon.svg";
+import logo from "../../images/icons/logo_icon.svg";
 import style from "./navbar.module.css"
 
 function Navbar() {
