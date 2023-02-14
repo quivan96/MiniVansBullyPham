@@ -4,9 +4,9 @@ import style from "./breedings.module.css";
 
 function Breedings() {
   return (
-    <div className={style.breedings} id="breedings">
+    <section className={style.breedings} id="breedings">
       <ComingSoon />
-    </div>
+    </section>
   );
 }
 
