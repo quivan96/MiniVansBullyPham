@@ -1,3 +1,35 @@
 .females {
-    padding-top: 3rem;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
 }
+
+.pedImg {
+    border-radius: .5rem;
+    height: 25rem;
+    width: 25rem;
+}
+
+.bodyImg {
+    border-radius: .5rem;
+    height: 25rem;
+    width: 40rem;
+}
+.pics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    padding-top: 2rem;
+}
+
+.abkcIcon {
+    width: auto;
+    height: 4em;
+}
+
+
