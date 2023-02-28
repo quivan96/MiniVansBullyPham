@@ -30,7 +30,7 @@ function Females() {
       <p style={{color:"red"}}> <img className={style.abkcIcon} src={abkcIcon} alt="abkc logo" /> Grand Champion Chumper</p>
       <p style={{color:"red"}}> <img className={style.abkcIcon} src={abkcIcon} alt="abkc logo" /> Grand Champion Kaos</p>
       <p> <img className={style.abkcIcon} src={abkcIcon} alt="abkc logo" /> Champion Storm Shadow (littermate)</p>
-      <p> <img className={style.abkcIcon} src={abkcIcon} alt="abkc logo" /> Champion Laruen London (mother)</p>
+      <p> <img className={style.abkcIcon} src={abkcIcon} alt="abkc logo" /> Champion Lauren London (mother)</p>
       <p> <img className={style.abkcIcon} src={abkcIcon} alt="abkc logo" /> Champion Grimm</p>
 
 

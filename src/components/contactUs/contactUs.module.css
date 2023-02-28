@@ -1,3 +1,25 @@
 .contactUs {
     padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+}
+
+.imgIcon {
+        width: auto;
+        height: 5em;
+}
+
+.icon {
+    width: auto;
+    height: 7.5em; 
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactNumber {
+    padding-left: 12rem;
 }
