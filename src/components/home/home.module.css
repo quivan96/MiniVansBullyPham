@@ -1,12 +1,8 @@
-.home {
-    padding-top: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 3rem;
+.home p {
+ font-size: 1.5em;
 }
 
 .logo {
-    width: 35em;
-    height: 35em;
+    /* width: 100%;
+    height: 100%; */
 }

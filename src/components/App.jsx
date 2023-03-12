@@ -12,13 +12,15 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Home />
-      <Males />
-      <Females />
-      <Breedings />
-      <Puppies />
-      <ContactUs />
-      <Footer />
+      <div className="container">
+        <Home />
+        <Males />
+        <Females />
+        <Breedings />
+        <Puppies />
+        <ContactUs />
+        <Footer />
+      </div>
     </div>
   );
 }

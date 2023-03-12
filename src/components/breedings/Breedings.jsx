@@ -4,9 +4,13 @@ import style from "./breedings.module.css";
 
 function Breedings() {
   return (
-    <section className={style.breedings} id="breedings">
-      <ComingSoon />
-    </section>
+    <div className="row">
+      <div className="col-12">
+        <section className={style.breedings} id="breedings">
+          <ComingSoon />
+        </section>
+      </div>
+    </div>
   );
 }
 

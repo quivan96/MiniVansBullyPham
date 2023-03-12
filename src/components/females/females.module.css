@@ -8,24 +8,26 @@
 
 .pedImg {
     border-radius: .5rem;
-    height: 25rem;
-    width: 25rem;
+    /* height: 25rem;
+    width: 25rem; */
 }
 
 .bodyImg {
     border-radius: .5rem;
-    height: 25rem;
-    width: 40rem;
+    /* height: 25rem;
+    width: 40rem; */
 }
 .pics {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
 }
 
-.info {
-    padding-top: 2rem;
+.info p,ul {
+    font-size: 1.5em;
 }
+
 
 .abkcIcon {
     width: auto;
