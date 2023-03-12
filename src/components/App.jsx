@@ -18,8 +18,22 @@ function App() {
         <Females />
         <Breedings />
         <Puppies />
+      </div>
+      <Footer>
         <ContactUs />
-        <Footer />
+      </Footer>
+      <div
+        className="m-3 p-1"
+        style={{
+          color: "white",
+          position: "fixed",
+          bottom: "0",
+          right: "0",
+          fontSize: "2em",
+          textDecoration: "none",
+        }}
+      >
+        <a href="#home">scroll to top</a>
       </div>
     </div>
   );

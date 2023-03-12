@@ -22,6 +22,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    border-radius: .5rem
 }
 
 .info p,ul {
@@ -30,8 +31,17 @@
 
 
 .abkcIcon {
-    width: auto;
-    height: 4em;
+    /* width: auto;
+    height: 4em; */
+    transform: scale(.75);
+}
+
+.bloodline p {
+    font-size: 2.5em;
+}
+
+.bloodline {
+    border-radius: .5rem
 }
 
 

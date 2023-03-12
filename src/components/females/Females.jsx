@@ -9,7 +9,7 @@ function Females() {
     <div className="row">
       <div className="col-12">
         <div className={style.females} id="females">
-          <div className={`${style.pics} rounded shadow-lg p-3 row`}>
+          <div className={`${style.pics} shadow-lg p-3 row`}>
             <div className="col-7">
               <img
                 className={`${style.bodyImg} img-fluid`}
@@ -46,61 +46,90 @@ function Females() {
             <p>
               <b>BLOODLINE</b>
             </p>
-            <div className={`d-block rounded shadow-lg p-3 row bg-white`}>
-              <p style={{ color: "red" }}>
-                {" "}
-                <img
-                  className={style.abkcIcon}
-                  src={abkcIcon}
-                  alt="abkc logo"
-                />{" "}
-                Grand Champion Rockomania
-              </p>
-              <p style={{ color: "red" }}>
-                {" "}
-                <img
-                  className={style.abkcIcon}
-                  src={abkcIcon}
-                  alt="abkc logo"
-                />{" "}
-                Grand Champion Chumper
-              </p>
-              <p style={{ color: "red" }}>
-                {" "}
-                <img
-                  className={style.abkcIcon}
-                  src={abkcIcon}
-                  alt="abkc logo"
-                />{" "}
-                Grand Champion Kaos
-              </p>
-              <p>
-                {" "}
-                <img
-                  className={style.abkcIcon}
-                  src={abkcIcon}
-                  alt="abkc logo"
-                />{" "}
-                Champion Storm Shadow (littermate)
-              </p>
-              <p>
-                {" "}
-                <img
-                  className={style.abkcIcon}
-                  src={abkcIcon}
-                  alt="abkc logo"
-                />{" "}
-                Champion Lauren London (mother)
-              </p>
-              <p>
-                {" "}
-                <img
-                  className={style.abkcIcon}
-                  src={abkcIcon}
-                  alt="abkc logo"
-                />{" "}
-                Champion Grimm
-              </p>
+            <div className={`d-block shadow-lg p-3 row ${style.bloodline} bg-white`}>
+              <div className="row">
+                <div className="col-2">
+                  <img
+                    className={`${style.abkcIcon} mr-5 img-fluid`}
+                    src={abkcIcon}
+                    alt="abkc logo"
+                  />
+                </div>
+                <div className="col-9 d-flex align-items-center">
+                  <p style={{ color: "red"}}>Grand Champion Rockomania</p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-2">
+                  <img
+                    className={`${style.abkcIcon} mr-5 img-fluid`}
+                    src={abkcIcon}
+                    alt="abkc logo"
+                  />
+                </div>
+                <div className="col-9 d-flex align-items-center">
+                  <p style={{ color: "red" }}>Grand Champion Chumper</p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-2">
+                  <img
+                    className={`${style.abkcIcon} mr-5 img-fluid`}
+                    src={abkcIcon}
+                    alt="abkc logo"
+                  />
+                </div>
+                <div className="col-9 d-flex align-items-center">
+                  <p style={{ color: "red" }}> Grand Champion Kaos</p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-2">
+                  <img
+                    className={`${style.abkcIcon} mr-5 img-fluid`}
+                    src={abkcIcon}
+                    alt="abkc logo"
+                  />
+                </div>
+                <div className="col-9 d-flex align-items-center">
+                  <p>
+                    {" "}
+                    Champion Storm Shadow (littermate)
+                  </p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-2">
+                  <img
+                    className={`${style.abkcIcon} mr-5 img-fluid`}
+                    src={abkcIcon}
+                    alt="abkc logo"
+                  />
+                </div>
+                <div className="col-9 d-flex align-items-center">
+                  <p>
+                    {" "}
+                    Champion Lauren London (mother)
+                  </p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-2">
+                  <img
+                    className={`${style.abkcIcon} mr-5 img-fluid`}
+                    src={abkcIcon}
+                    alt="abkc logo"
+                  />
+                </div>
+                <div className="col-9 d-flex align-items-center">
+                  <p>Champion Grimm</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
